@@ -1,0 +1,136 @@
+{
+"intents": [
+{
+"tag": "greeting",
+"patterns": [
+"hello", "hi", "hey", "good morning", "good evening",
+"hey there", "hi bot", "hello chatbot"
+],
+"responses": [
+"Hello!",
+"Hi there!",
+"Hey! How can I help you?",
+"Greetings! What can I do for you today?"
+]
+},
+{
+"tag": "goodbye",
+"patterns": [
+"bye", "see you", "goodbye", "see you later",
+"talk to you later", "catch you later"
+],
+"responses": [
+"Bye!",
+"See you later!",
+"Have a great day!",
+"Goodbye! Come back if you have more questions."
+]
+},
+{
+"tag": "name",
+"patterns": [
+"what is your name",
+"who are you",
+"tell me your name",
+"do you have a name"
+],
+"responses": [
+"I am a chatbot created using Python.",
+"You can call me PythonBot.",
+"I'm a simple AI chatbot built for learning."
+]
+},
+{
+"tag": "how_are_you",
+"patterns": [
+"how are you",
+"how are you doing",
+"are you fine",
+"how is it going"
+],
+"responses": [
+"I'm doing great!",
+"I'm just a bot, but I'm functioning perfectly!",
+"All good here! How can I assist you?"
+]
+},
+{
+"tag": "help",
+"patterns": [
+"i need help",
+"can you help me",
+"help me",
+"what can you do"
+],
+"responses": [
+"Sure! I can answer questions about machine learning and programming.",
+"I'm here to help. Ask me anything!",
+"Tell me what you need help with."
+]
+},
+{
+"tag": "machine_learning",
+"patterns": [
+"what is machine learning",
+"explain machine learning",
+"tell me about machine learning",
+"define machine learning"
+],
+"responses": [
+"Machine learning is a field of AI that allows systems to learn patterns from data.",
+"Machine learning enables computers to learn from data without being explicitly programmed."
+]
+},
+{
+"tag": "python",
+"patterns": [
+"what is python",
+"tell me about python",
+"why python is used",
+"python programming"
+],
+"responses": [
+"Python is a popular programming language used for web development, data science, and AI.",
+"Python is known for its simple syntax and powerful libraries."
+]
+},
+{
+"tag": "data_science",
+"patterns": [
+"what is data science",
+"define data science",
+"explain data science"
+],
+"responses": [
+"Data science is the field of extracting insights from data using statistics, programming, and machine learning.",
+"Data science combines data analysis, machine learning, and domain knowledge."
+]
+},
+{
+"tag": "thanks",
+"patterns": [
+"thanks",
+"thank you",
+"thanks a lot",
+"appreciate it"
+],
+"responses": [
+"You're welcome!",
+"Happy to help!",
+"Anytime!"
+]
+},
+{
+"tag": "creator",
+"patterns": [
+"who created you",
+"who made you",
+"who developed you"
+],
+"responses": [
+"I was created as a Python chatbot project.",
+"A developer built me using Python and JSON."
+]
+}
+]
+}
