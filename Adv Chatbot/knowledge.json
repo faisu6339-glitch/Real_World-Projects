@@ -1,0 +1,365 @@
+{
+    "data": [
+        {
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning",
+                "good evening"
+            ],
+            "answer": "Hello! 👋 How can I assist you today?"
+        },
+        {
+            "patterns": [
+                "how are you",
+                "how are u",
+                "are you fine"
+            ],
+            "answer": "I'm doing great! 😊 What about you?"
+        },
+        {
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later"
+            ],
+            "answer": "Goodbye! 👋 Have a great day!"
+        },
+        {
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thx"
+            ],
+            "answer": "You're welcome! 😊"
+        },
+        {
+            "patterns": [
+                "what is python",
+                "define python"
+            ],
+            "answer": "Python is a powerful programming language used in web development, AI, and data science."
+        },
+        {
+            "patterns": [
+                "what is java"
+            ],
+            "answer": "Java is a widely used object-oriented programming language."
+        },
+        {
+            "patterns": [
+                "what is c++"
+            ],
+            "answer": "C++ is a high-performance programming language used in systems and game development."
+        },
+        {
+            "patterns": [
+                "what is ai",
+                "define artificial intelligence"
+            ],
+            "answer": "AI is the simulation of human intelligence in machines."
+        },
+        {
+            "patterns": [
+                "what is machine learning"
+            ],
+            "answer": "Machine Learning allows systems to learn from data automatically."
+        },
+        {
+            "patterns": [
+                "what is deep learning"
+            ],
+            "answer": "Deep Learning is a subset of ML based on neural networks."
+        },
+        {
+            "patterns": [
+                "what is data science"
+            ],
+            "answer": "Data Science involves analyzing data to extract insights."
+        },
+        {
+            "patterns": [
+                "what is html"
+            ],
+            "answer": "HTML is used to structure web pages."
+        },
+        {
+            "patterns": [
+                "what is css"
+            ],
+            "answer": "CSS is used to style web pages."
+        },
+        {
+            "patterns": [
+                "what is javascript"
+            ],
+            "answer": "JavaScript is used to make websites interactive."
+        },
+        {
+            "patterns": [
+                "what is sql"
+            ],
+            "answer": "SQL is used to manage databases."
+        },
+        {
+            "patterns": [
+                "who created you"
+            ],
+            "answer": "I was created by a developer MD FAISAL SHEIKH 😎"
+        },
+        {
+            "patterns": [
+                "your name",
+                "who are you"
+            ],
+            "answer": "I'm your AI chatbot 🤖"
+        },
+        {
+            "patterns": [
+                "what can you do"
+            ],
+            "answer": "I can answer questions, learn from you, and chat!"
+        },
+        {
+            "patterns": [
+                "tell me a joke"
+            ],
+            "answer": "Why do programmers hate nature? Too many bugs 😂"
+        },
+        {
+            "patterns": [
+                "i am sad"
+            ],
+            "answer": "I'm here for you ❤️ Things will get better."
+        },
+        {
+            "patterns": [
+                "i am happy"
+            ],
+            "answer": "That's great! 😄 Keep smiling!"
+        },
+        {
+            "patterns": [
+                "what is your age"
+            ],
+            "answer": "I don't have an age 😄 I'm just code!"
+        },
+        {
+            "patterns": [
+                "are you human"
+            ],
+            "answer": "No, I'm an AI chatbot 🤖"
+        },
+        {
+            "patterns": [
+                "do you sleep"
+            ],
+            "answer": "Nope! I'm always here for you 😄"
+        },
+        {
+            "patterns": [
+                "what is github"
+            ],
+            "answer": "GitHub is a platform to store and manage code."
+        },
+        {
+            "patterns": [
+                "what is git"
+            ],
+            "answer": "Git is a version control system."
+        },
+        {
+            "patterns": [
+                "what is excel"
+            ],
+            "answer": "Excel is a spreadsheet tool used for data analysis."
+        },
+        {
+            "patterns": [
+                "what is pivot table"
+            ],
+            "answer": "A pivot table summarizes and analyzes data in Excel."
+        },
+        {
+            "patterns": [
+                "what is streamlit"
+            ],
+            "answer": "Streamlit is used to build web apps in Python easily."
+        },
+        {
+            "patterns": [
+                "what is flask"
+            ],
+            "answer": "Flask is a lightweight Python web framework."
+        },
+        {
+            "patterns": [
+                "what is django"
+            ],
+            "answer": "Django is a powerful Python web framework."
+        },
+        {
+            "patterns": [
+                "what is api"
+            ],
+            "answer": "API allows different software systems to communicate."
+        },
+        {
+            "patterns": [
+                "what is json"
+            ],
+            "answer": "JSON is a format for storing and exchanging data."
+        },
+        {
+            "patterns": [
+                "what is numpy"
+            ],
+            "answer": "NumPy is a Python library for numerical computing."
+        },
+        {
+            "patterns": [
+                "what is pandas"
+            ],
+            "answer": "Pandas is used for data manipulation and analysis."
+        },
+        {
+            "patterns": [
+                "what is matplotlib"
+            ],
+            "answer": "Matplotlib is used for data visualization in Python."
+        },
+        {
+            "patterns": [
+                "what is seaborn"
+            ],
+            "answer": "Seaborn is a data visualization library built on matplotlib."
+        },
+        {
+            "patterns": [
+                "what is tensorflow"
+            ],
+            "answer": "TensorFlow is a library for deep learning."
+        },
+        {
+            "patterns": [
+                "what is pytorch"
+            ],
+            "answer": "PyTorch is a deep learning framework."
+        },
+        {
+            "patterns": [
+                "what is logistic regression"
+            ],
+            "answer": "It is a classification algorithm in machine learning."
+        },
+        {
+            "patterns": [
+                "what is decision tree"
+            ],
+            "answer": "A decision tree is a model used for classification and regression."
+        },
+        {
+            "patterns": [
+                "what is random forest"
+            ],
+            "answer": "Random Forest is an ensemble learning method."
+        },
+        {
+            "patterns": [
+                "what is gradient boosting"
+            ],
+            "answer": "Gradient Boosting improves models by reducing errors step by step."
+        },
+        {
+            "patterns": [
+                "what is overfitting"
+            ],
+            "answer": "Overfitting happens when a model learns noise instead of patterns."
+        },
+        {
+            "patterns": [
+                "what is underfitting"
+            ],
+            "answer": "Underfitting happens when a model is too simple."
+        },
+        {
+            "patterns": [
+                "what is accuracy"
+            ],
+            "answer": "Accuracy measures correct predictions."
+        },
+        {
+            "patterns": [
+                "what is precision"
+            ],
+            "answer": "Precision measures true positives over predicted positives."
+        },
+        {
+            "patterns": [
+                "what is recall"
+            ],
+            "answer": "Recall measures true positives over actual positives."
+        },
+        {
+            "patterns": [
+                "what is f1 score"
+            ],
+            "answer": "F1 score balances precision and recall."
+        },
+        {
+            "patterns": [
+                "what is database"
+            ],
+            "answer": "A database stores structured data."
+        },
+        {
+            "patterns": [
+                "what is mongodb"
+            ],
+            "answer": "MongoDB is a NoSQL database."
+        },
+        {
+            "patterns": [
+                "what is sqlite"
+            ],
+            "answer": "SQLite is a lightweight database."
+        },
+        {
+            "patterns": [
+                "what is cloud computing"
+            ],
+            "answer": "Cloud computing provides services over the internet."
+        },
+        {
+            "patterns": [
+                "what is cybersecurity"
+            ],
+            "answer": "Cybersecurity protects systems from digital attacks."
+        },
+        {
+            "patterns": [
+                "what is networking"
+            ],
+            "answer": "Networking connects computers together."
+        },
+        {
+            "patterns": [
+                "what is operating system"
+            ],
+            "answer": "An OS manages computer hardware and software."
+        },
+        {
+            "patterns": [
+                "heyy"
+            ],
+            "answer": "faisu786@gmail.com"
+        },
+        {
+            "patterns": [
+                "aaliya fatma"
+            ],
+            "answer": "Faisu Heartbeat bro"
+        }
+    ]
+}
