@@ -15,17 +15,17 @@ for item in knowledge:
         all_patterns.append(pattern.lower())
         answers.append(item["answer"])
 
-# ✅ Handle empty case
+# Handle empty case
 if not all_patterns:
     all_patterns = ["hello"]
     answers = ["Hello!"]
 
-# 🔥 Train vectorizer once
+#  Train vectorizer once
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(all_patterns)
 
 
-# 🔍 FIND BEST MATCH
+#  FIND BEST MATCH
 def find_best_match(user_input):
     user_input = user_input.lower()
 
@@ -38,7 +38,7 @@ def find_best_match(user_input):
     return answers[best_index], best_score
 
 
-# 🤖 CHAT RESPONSE
+#  CHAT RESPONSE
 def chatbot_response(user_input):
     answer, score = find_best_match(user_input)
 
@@ -48,19 +48,19 @@ def chatbot_response(user_input):
         return None
 
 
-# 🧠 SELF-LEARNING (IMPROVED 🔥)
+#  SELF-LEARNING
 def learn(user_input, answer):
     global knowledge, all_patterns, answers, X
 
     user_input = user_input.lower()
 
-    # ✅ Duplicate check
+    Duplicate check
     existing_answer, score = find_best_match(user_input)
 
     if score > 0.85:
         return "⚠️ I already know something similar!"
 
-    # ✅ Add new knowledge
+    # Add new knowledge
     new_entry = {
         "patterns": [user_input],
         "answer": answer
@@ -68,7 +68,7 @@ def learn(user_input, answer):
 
     knowledge.append(new_entry)
 
-    # ✅ Save safely with UTF-8 + emoji support
+    # Save safely with UTF-8 + emoji support
     with open("knowledge.json", "w", encoding="utf-8") as f:
         json.dump({"data": knowledge}, f, indent=4, ensure_ascii=False)
 
@@ -78,4 +78,4 @@ def learn(user_input, answer):
 
     X = vectorizer.fit_transform(all_patterns)
 
-    return "✅ Learned successfully!"
+    return " Learned successfully!"
